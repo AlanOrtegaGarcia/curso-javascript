@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+    />
+    <script
+    src="https://kit.fontawesome.com/a9204978b8.js"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Peliculas</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/images/logo.png" width="60" height="60" alt="Peliculas" />
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/now-playing.html"
+                >Últimos lanzamientos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/popular.html">Populares</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/search.html">Buscador</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carousel-news-movies" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner list-news-movies"></div>
+    </div>
+  </body>
+</html>
